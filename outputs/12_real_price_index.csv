@@ -1,0 +1,25 @@
+area,sale_year,nominal_median,real_median_2025_prices,real_price_index_2018
+Greater London,2018,467500.0,610973.0,100.0
+Greater London,2019,475000.0,609833.0,99.8
+Greater London,2020,497550.0,633495.0,103.7
+Greater London,2021,510000.0,632473.0,103.5
+Greater London,2022,525000.0,597042.0,97.7
+Greater London,2023,525025.0,556808.0,91.1
+Greater London,2024,530200.0,548019.0,89.7
+Greater London,2025,530000.0,530000.0,86.7
+Greater Manchester,2018,164995.0,215631.0,100.0
+Greater Manchester,2019,170000.0,218256.0,101.2
+Greater Manchester,2020,187000.0,238094.0,110.4
+Greater Manchester,2021,208000.0,257950.0,119.6
+Greater Manchester,2022,222500.0,253032.0,117.3
+Greater Manchester,2023,222500.0,235969.0,109.4
+Greater Manchester,2024,235000.0,242898.0,112.6
+Greater Manchester,2025,245000.0,245000.0,113.6
+Rest of England and Wales,2018,222000.0,290130.0,100.0
+Rest of England and Wales,2019,225000.0,288868.0,99.6
+Rest of England and Wales,2020,242995.0,309388.0,106.6
+Rest of England and Wales,2021,260000.0,322437.0,111.1
+Rest of England and Wales,2022,272500.0,309893.0,106.8
+Rest of England and Wales,2023,270000.0,286345.0,98.7
+Rest of England and Wales,2024,275000.0,284242.0,98.0
+Rest of England and Wales,2025,280000.0,280000.0,96.5

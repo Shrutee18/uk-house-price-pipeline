@@ -1,0 +1,25 @@
+area,sale_year,sales,median_price,price_index_2018
+Greater London,2018,87503,467500.0,100.0
+Greater London,2019,83828,475000.0,101.6
+Greater London,2020,78001,497550.0,106.4
+Greater London,2021,115806,510000.0,109.1
+Greater London,2022,99553,525000.0,112.3
+Greater London,2023,76368,525025.0,112.3
+Greater London,2024,83941,530200.0,113.4
+Greater London,2025,85904,530000.0,113.4
+Greater Manchester,2018,40869,164995.0,100.0
+Greater Manchester,2019,39152,170000.0,103.0
+Greater Manchester,2020,34347,187000.0,113.3
+Greater Manchester,2021,46810,208000.0,126.1
+Greater Manchester,2022,39285,222500.0,134.9
+Greater Manchester,2023,31057,222500.0,134.9
+Greater Manchester,2024,33458,235000.0,142.4
+Greater Manchester,2025,35378,245000.0,148.5
+Rest of England and Wales,2018,747192,222000.0,100.0
+Rest of England and Wales,2019,720039,225000.0,101.4
+Rest of England and Wales,2020,641040,242995.0,109.5
+Rest of England and Wales,2021,924318,260000.0,117.1
+Rest of England and Wales,2022,771103,272500.0,122.7
+Rest of England and Wales,2023,600890,270000.0,121.6
+Rest of England and Wales,2024,646506,275000.0,123.9
+Rest of England and Wales,2025,688179,280000.0,126.1
