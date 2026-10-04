@@ -55,6 +55,19 @@ protection for future monthly update files.
 5. `python src/run_pipeline.py`
 6. `streamlit run app/dashboard.py`
 
+## Forecasting
+I backtested four models (naive, drift, damped Holt exponential smoothing and ARIMA) on 96 months of
+Greater Manchester median prices, using seven rolling start points and a 12-month horizon. None
+reliably beat the naive "no change" baseline (average error about 3%). The dashboard therefore shows a
+damped-trend forecast as a scenario, with a range built from the model's own past errors, and the
+naive line alongside it.
+
+The scenario was fixed using data to December 2025. I then compared it with 2026 sales published
+afterwards. Only two months were complete enough to judge. The scenario over-forecast in seven of
+eight months, and the no-change line was closer, consistent with the backtest. The forecast code is
+in `src/forecast_backtest.py`, `src/forecast.py` and `src/forecast_check.py`. The last one needs the
+2026 yearly file saved as `data/holdout/pp-2026.csv`.
+
 ## Limitations
 - Medians are not adjusted for property mix. Areas with more flats look cheaper.
 - Real prices use annual average CPI, which measures consumer prices generally. They show purchasing power,
