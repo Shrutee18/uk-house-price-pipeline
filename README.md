@@ -30,7 +30,7 @@ using ONS CPI.
 
 ## Architecture
 Raw CSVs -> `ingest.py` (DuckDB raw table) -> `clean.py` (clean table) -> `load_cpi.py` (ONS inflation index)
--> `pytest` data quality tests -> `analyse.py` (13 SQL files to CSV outputs) -> Streamlit dashboard
+-> `pytest` data quality tests -> `analyse.py` (14 SQL files to CSV outputs) -> Streamlit dashboard
 
 `run_pipeline.py` runs every step in order and stops before producing outputs if any test fails.
 
