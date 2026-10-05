@@ -63,8 +63,7 @@ damped-trend forecast as a scenario, with a range built from the model's own pas
 naive line alongside it.
 
 The scenario was fixed using data to December 2025. I then compared it with 2026 sales published
-afterwards. Only two months were complete enough to judge. The scenario over-forecast in seven of
-eight months, and the no-change line was closer, consistent with the backtest. The forecast code is
+afterwards. Only two months were complete enough to judge. The scenario over-forecast in seven of eight months. The no-change line was closer in six of the eight, including both months with complete data. The forecast code is
 in `src/forecast_backtest.py`, `src/forecast.py` and `src/forecast_check.py`. The last one needs the
 2026 yearly file saved as `data/holdout/pp-2026.csv`.
 
