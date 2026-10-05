@@ -26,7 +26,7 @@ using ONS CPI.
   The pattern does not hold for every borough (Salford shows little difference).
 - Sales volumes fell to 84% of the 2018 level in 2020, jumped to 115% in 2021, hit a low of 76% in 2023,
   and had recovered to 87% by 2025.
-- [CHECK AGAINST THE SEASONALITY TAB: Sales are consistently lowest in winter and spring and highest from July to October.]
+- [CHECK AGAINST THE SEASONALITY TAB: - Sales are usually weakest in January, February and April and strongest around August.]
 
 ## Architecture
 Raw CSVs -> `ingest.py` (DuckDB raw table) -> `clean.py` (clean table) -> `load_cpi.py` (ONS inflation index)
