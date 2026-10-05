@@ -4,7 +4,7 @@ An end-to-end Python data pipeline and interactive dashboard built on HM Land Re
 Price Paid Data: 8.07 million property sales in England and Wales, adjusted for inflation
 using ONS CPI.
 
-**Live dashboard:** [ADD STREAMLIT LINK HERE]
+**Live dashboard:** https://uk-house-price-pipelinegit-nwq3pyjbzjvwjkdxzdcomg.streamlit.app
 
 ## Questions answered
 1. How have Greater Manchester house prices changed since 2018, in cash terms and after inflation?
